@@ -14,6 +14,7 @@ if ENV['COVERAGE']
 end
 
 require 'faulty'
+require 'faulty/patch/redis'
 require 'timecop'
 
 require_relative 'support/concurrency'
